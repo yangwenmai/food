@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">food</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
-
+    <string name="hello_world">你好，世界！</string>
+    <string name="menu_settings">设置</string>
+    <string name="app_name">食物相宜相克手册</string>
 </resources>

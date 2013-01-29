@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="adsMogoView">false</item>
+    <item type="id" name="tv_title">false</item>
+    <item type="id" name="btn_back">false</item>
+    <item type="id" name="tv_food_name">false</item>
+    <item type="id" name="gv_item">false</item>
+    <item type="id" name="ll_ad">false</item>
+    <item type="id" name="iv_img">false</item>
+    <item type="id" name="tv_name">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="btn_catelog">false</item>
+    <item type="id" name="tv_line">false</item>
+</resources>
