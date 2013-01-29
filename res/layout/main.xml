@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffe3fcad"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="46.0dip"
+        android:background="@drawable/toolbar" >
+
+        <TextView
+            android:id="@id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/app_name"
+            android:textAppearance="?android:textAppearanceLarge" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_margin="5.0dip"
+        android:layout_weight="1.0"
+        android:background="@drawable/item_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@id/textView1"
+                style="@style/black_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:paddingLeft="5.0dip"
+                android:text="食物分类"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <Button
+                android:id="@id/btn_catelog"
+                style="@style/white_bold"
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:layout_margin="5.0dip"
+                android:background="@drawable/btn_button"
+                android:text="分类" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@id/tv_line"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:layout_margin="5.0dip"
+            android:background="#ff333333" />
+
+        <GridView
+            android:id="@id/gv_item"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:cacheColorHint="#00000000"
+            android:columnWidth="90.0dip"
+            android:gravity="center"
+            android:horizontalSpacing="5.0dip"
+            android:numColumns="auto_fit"
+            android:stretchMode="spacingWidthUniform"
+            android:verticalSpacing="5.0dip" />
+    </LinearLayout>
+
+    <include
+        android:id="@id/ll_ad"
+        layout="@layout/ad" />
+
+</LinearLayout>
